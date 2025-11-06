@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Band+ | Dark Lab Project</title>
+    <meta name="description" content="Privacy Policy for Band+ Chrome Extension">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="page_styles.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+    </button>
+
+    <!-- Back Button - FIXED LINK -->
+    <a href="index.html" class="back-button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back
+    </a>
+
+    <!-- Animated Background -->
+    <div class="background-blur">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container page-container">
+        <article class="content-card">
+            <header class="page-header">
+                <div class="icon-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                </div>
+                <h1>Privacy Policy for Band+</h1>
+                <p class="last-updated">Last Updated: November 4, 2025</p>
+            </header>
+
+            <div class="content-section">
+                <h2>Overview</h2>
+                <p>Band+ is a browser extension that enhances your Bandcamp listening experience with an overlay player, pop-up player and keyboard shortcuts. We are committed to protecting your privacy and being transparent about our data practices.</p>
+            </div>
+
+            <div class="content-section highlight-section">
+                <h2>🔒 Privacy-First Design</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <span class="feature-icon">✅</span>
+                        <span>All data stored locally</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✅</span>
+                        <span>No external servers</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✅</span>
+                        <span>No personal information collected</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✅</span>
+                        <span>No tracking or analytics</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✅</span>
+                        <span>Full user control</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✅</span>
+                        <span>No ads</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>Data Collection and Storage</h2>
+                
+                <h3>What Data We Store</h3>
+                <p>Band+ stores minimal data locally on your device:</p>
+                <ul>
+                    <li><strong>Volume level</strong> (0-1 decimal value)</li>
+                    <li><strong>Overlay position</strong> (screen coordinates for draggable player)</li>
+                    <li><strong>Overlay visibility state</strong> (shown/hidden)</li>
+                </ul>
+
+                <h3>How Data is Stored</h3>
+                <ul>
+                    <li><strong>All data is stored locally</strong> on your device using Chrome's storage API</li>
+                    <li><strong>No data is transmitted</strong> to external servers</li>
+                    <li><strong>No personal information</strong> is collected (no names, emails, or browsing data)</li>
+                    <li>Data is <strong>not shared</strong> with any third parties</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>What We Don't Collect</h2>
+                <ul>
+                    <li>❌ No listening history</li>
+                    <li>❌ No track information</li>
+                    <li>❌ No browsing habits</li>
+                    <li>❌ No analytics or telemetry</li>
+                    <li>❌ No user identification</li>
+                    <li>❌ No IP addresses</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>Permissions</h2>
+                
+                <div class="permission-item">
+                    <h3>Storage Permission</h3>
+                    <p><strong>Used to save:</strong></p>
+                    <ul>
+                        <li>Volume level preference</li>
+                        <li>Overlay position on screen</li>
+                        <li>Overlay visibility state</li>
+                    </ul>
+                </div>
+
+                <div class="permission-item">
+                    <h3>Scripting Permission</h3>
+                    <p><strong>Used to:</strong></p>
+                    <ul>
+                        <li>Inject the overlay player into web pages</li>
+                        <li>Control Bandcamp audio playback</li>
+                    </ul>
+                </div>
+
+                <div class="permission-item">
+                    <h3>ActiveTab Permission</h3>
+                    <p><strong>Used to:</strong></p>
+                    <ul>
+                        <li>Access the current tab to inject the overlay when you press <kbd>Ctrl+Shift+Y</kbd></li>
+                        <li>Communicate with Bandcamp tabs for playback control</li>
+                    </ul>
+                </div>
+
+                <div class="permission-item">
+                    <h3>WebNavigation Permission</h3>
+                    <p><strong>Used to:</strong></p>
+                    <ul>
+                        <li>Detect when you navigate to Bandcamp pages</li>
+                        <li>Update overlay information when track changes</li>
+                    </ul>
+                </div>
+
+                <div class="permission-item">
+                    <h3>Host Permissions (*.bandcamp.com)</h3>
+                    <p><strong>Used to:</strong></p>
+                    <ul>
+                        <li>Monitor track changes on Bandcamp</li>
+                        <li>Control audio playback</li>
+                        <li>Extract track information for display</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>Data Retention</h2>
+                <ul>
+                    <li>Settings persist until you clear them or uninstall the extension</li>
+                    <li>Uninstalling the extension removes all stored data immediately</li>
+                    <li>No data backup or cloud storage</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>Third-Party Services</h2>
+                <p>Band+ only interacts with Bandcamp.com, which has its own privacy policy. We recommend reviewing Bandcamp's privacy policy at <a href="https://bandcamp.com/privacy" target="_blank">bandcamp.com/privacy</a>.</p>
+                <p>Band+ does not use any third-party analytics, tracking, or advertising services.</p>
+            </div>
+
+            <div class="content-section">
+                <h2>Children's Privacy</h2>
+                <p>Band+ does not knowingly collect any information from children. The extension does not collect personal information from any users.</p>
+            </div>
+
+            <div class="content-section">
+                <h2>Changes to This Policy</h2>
+                <p>We may update this privacy policy from time to time. Changes will be reflected in the "Last Updated" date at the top of this page. Continued use of Band+ after changes constitutes acceptance of the updated policy.</p>
+            </div>
+
+            <div class="content-section highlight-section summary-section">
+                <h2>Summary</h2>
+                <p><strong>Band+ respects your privacy:</strong></p>
+                <ul class="summary-list">
+                    <li>✅ All data stored locally on your device</li>
+                    <li>✅ No external servers or third-party sharing</li>
+                    <li>✅ No tracking or analytics</li>
+                    <li>✅ No personal information collected</li>
+                    <li>✅ Open source and transparent</li>
+                    <li>✅ Full user control over data</li>
+                </ul>
+            </div>
+        </article>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
